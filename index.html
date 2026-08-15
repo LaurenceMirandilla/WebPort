@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <span class="logo">Laurence S. Mirandilla</span>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </div>
+
+    <!-- Mobile menu, hidden by default -->
+    <nav class="nav-links-mobile" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow">hi, i'm</p>
+    <h1>Laurence S. Mirandilla</h1>
+    <p class="subtitle">BS IT student</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View projects</a>
+      <a href="#contact" class="btn">Contact</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <p class="section-label">About</p>
+    <p class="body-text">
+      Welcome to my simple website about my works and skills.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <p class="section-label">Skills</p>
+
+    <div class="skill-group">
+      <p class="skill-category">Languages</p>
+      <div class="tag-row">
+        <span class="tag">C#</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">SQL</span>
+        <span class="tag">HTML/CSS</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <p class="skill-category">Frameworks &amp; Tools</p>
+      <div class="tag-row">
+        <span class="tag">ASP.NET Web API</span>
+        <span class="tag">React (Vite)</span>
+        <span class="tag">CSS</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <p class="skill-category">Databases</p>
+      <div class="tag-row">
+        <span class="tag">MS SQL Server</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <p class="skill-category">Practices</p>
+      <div class="tag-row">
+        <span class="tag">REST API design</span>
+        <span class="tag">Repository pattern</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <p class="section-label">Projects</p>
+
+    <div class="project-card">
+      <div class="project-header">
+        <p class="project-title">Inventory Tracking &amp; Supply Requisition System</p>
+      </div>
+      <p class="project-desc">
+        A web-based system for a school's supply workflow, with separate
+        dashboards for Admins, Supply Officers, and Teachers.
+      </p>
+      <div class="tag-row">
+        <span class="tag">HTML</span>
+        <span class="tag">Tailwind CSS</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <p class="project-title">E-commerce Inventory System</p>
+      </div>
+      <p class="project-desc">
+        A full-stack inventory and order management system for small
+        businesses, built with a React frontend and an ASP.NET Web API
+        backend.
+      </p>
+      <div class="tag-row">
+        <span class="tag">React</span>
+        <span class="tag">TypeScript</span>
+        <span class="tag">ASP.NET</span>
+        <span class="tag">SQL Server</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <p class="section-label">Contact</p>
+    <p class="body-text">
+    </p>
+    <div class="contact-links">
+      <a href="mailto:laurence.mirandilla.college@Ustangelicum.edu.ph">Email</a>
+      <a href="https://github.com/LaurenceMirandilla" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Made by Laurence S. Mirandilla.</p>
+  </footer>
+
+</body>
+</html>
